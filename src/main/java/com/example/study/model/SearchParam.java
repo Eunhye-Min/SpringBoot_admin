@@ -1,12 +1,17 @@
 package com.example.study.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class SearchParam {
 
     private String account;
     private String email;
     private int page;
 
-    public String getAccount() {
+/*    public String getAccount() {
         return account;
     }
 
@@ -28,5 +33,5 @@ public class SearchParam {
 
     public void setPage(int page) {
         this.page = page;
-    }
+    }*/
 }
